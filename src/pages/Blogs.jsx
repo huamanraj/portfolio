@@ -43,6 +43,7 @@ function Blogs() {
   return (
     <div className="blogs">
       <h1 className="text-3xl text-md-yellow mb-6">Blogs</h1>
+       <a className='hover:font-bold' href="https://huamanraj.hashnode.dev/">Visit Hashnode</a>
       {/* <div className="space-y-6">
         {blogs.map(blog => (
           <div key={blog.slug} className="bg-md-bg border border-md-text/20 p-6 rounded-lg">

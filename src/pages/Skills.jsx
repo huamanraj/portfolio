@@ -1,11 +1,11 @@
 // pages/Skills.jsx
-import { FaReact, FaNodeJs, FaPython, FaDatabase, FaDocker, FaAws } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiExpress, SiMongodb, SiPostgresql } from 'react-icons/si';
-
+import { FaReact, FaNodeJs,FaGithub, FaPython,FaFigma, FaDatabase, FaDocker, FaAws } from 'react-icons/fa';
+import { SiJavascript,SiTailwindcss,SiFlutter, SiMui,SiAppwrite ,SiFirebase , SiTypescript, SiExpress, SiMongodb, SiPostgresql } from 'react-icons/si';
+import { TbBrandReactNative } from "react-icons/tb";
 function SkillIcon({ Icon, name }) {
   return (
     <div className="flex flex-col items-center">
-      <Icon className="text-5xl mb-2 text-md-blue" />
+      <Icon className="text-5xl hover:text-yellow-400 cursor-crosshair mb-2 text-md-blue" />
       <span className="text-md-text">{name}</span>
     </div>
   );
@@ -16,14 +16,21 @@ function Skills() {
     { Icon: FaReact, name: 'React' },
     { Icon: SiJavascript, name: 'JavaScript' },
     { Icon: SiTypescript, name: 'TypeScript' },
+    { Icon: SiTailwindcss , name: 'Tailwind CSS' },
+    { Icon: SiMui , name: 'Material UI' },
     { Icon: FaNodeJs, name: 'Node.js' },
     { Icon: SiExpress, name: 'Express' },
-    { Icon: FaPython, name: 'Python' },
-    { Icon: FaDatabase, name: 'SQL' },
+    { Icon: TbBrandReactNative , name: 'React Native' },
+    { Icon: FaDatabase, name: 'MySQL' },
     { Icon: SiMongodb, name: 'MongoDB' },
-    { Icon: SiPostgresql, name: 'PostgreSQL' },
     { Icon: FaDocker, name: 'Docker' },
     { Icon: FaAws, name: 'AWS' },
+    { Icon: FaGithub, name: 'GitHub' },
+    { Icon: SiAppwrite, name: 'Appwrite' },
+    { Icon: SiFirebase, name: 'Firebase' },
+    { Icon: SiFlutter, name: 'FlutterFlow' },
+    { Icon: FaFigma, name: 'Figma' },
+    
   ];
 
   return (
