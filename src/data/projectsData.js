@@ -3,11 +3,11 @@
 export const projectsData = [
     {
       id: 1,
-      title: 'E-commerce Platform',
+      title: 'Mind M',
       image: '/path-to-image1.jpg',
       shortDescription: 'A full-stack e-commerce solution with React and Node.js',
-      fullDescription: 'A comprehensive e-commerce platform built with React for the frontend and Node.js for the backend. This project showcases a modern, responsive design with a robust backend capable of handling user authentication, product management, and order processing.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Redux', 'Tailwind CSS'],
+      fullDescription: 'A comprehensive bloging platform built with React for the frontend and appwrite for the backend. This project showcases a modern, responsive design with a robust backend capable of handling user authentication, blog data, and blog posting.',
+      technologies: ['React', 'Redux', 'Appwrite', 'tinyMce', '', 'Tailwind CSS'],
       features: [
         'User authentication and authorization',
         'Product catalog with search and filter functionality',
@@ -17,7 +17,7 @@ export const projectsData = [
       ],
       challenges: 'One of the main challenges was implementing a real-time inventory management system to prevent overselling. This was solved by using WebSockets to update inventory across all active sessions.',
       github: 'https://github.com/yourusername/ecommerce-platform',
-      liveDemo: 'https://your-ecommerce-demo.com'
+      liveDemo: 'https://mind-mosaic-blogs.vercel.app/'
     },
     {
       id: 2,

@@ -23,24 +23,24 @@ function Experience() {
   const experiences = [
     {
       icon: FaBriefcase,
-      title: 'Senior Full Stack Developer',
-      company: 'TechCorp Inc.',
-      date: '2018 - Present',
-      description: 'Leading development of company\'s flagship product, implementing CI/CD pipelines, and mentoring junior developers.'
+      title: 'Software Development Intern',
+      company: 'Automatically Enterprise',
+      date: 'June-Aug 2024',
+      description: 'Worked on company\'s website with React, implementing AWS lambda, Cognito in backend, and designing apps in flutterflow.'
     },
     {
       icon: FaBriefcase,
       title: 'Full Stack Developer',
-      company: 'WebSolutions Co.',
-      date: '2015 - 2018',
-      description: 'Developed and maintained multiple client websites, implemented responsive designs, and integrated third-party APIs.'
+      company: 'SKIT Incubation Cell',
+      date: '2023 - 2024',
+      description: 'Developed and maintained multiple incubated startup websites, implemented responsive designs, and integrated third-party APIs, and backend sservices.'
     },
     {
       icon: FaGraduationCap,
-      title: 'BSc in Computer Science',
-      company: 'University of Technology',
-      date: '2011 - 2015',
-      description: 'Studied algorithms, data structures, software engineering principles, and completed a capstone project on distributed systems.'
+      title: 'Btech. in CSE (IOT)',
+      company: 'SKIT Jaipur',
+      date: '2022 - 2026',
+      description: 'Studied algorithms, data structures, software engineering principles, and completed a capstone project on distributed systems. and continued..'
     },
   ];
 

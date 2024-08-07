@@ -30,7 +30,7 @@ function About() {
           new technologies and methodologies to stay at the forefront of web development.
         </p>
       </div>
-      <div className="flex sm:grid sm:grid-flow-col gap-2 sm:gap-7 justify-start text-5xl p-2">
+      <div className="flex sm:grid sm:grid-flow-col gap-2 sm:gap-7 justify-start text-5xl ">
         <a className="hover:text-blue-600" href="https://www.linkedin.com/in/huamanraj/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         <a className="hover:text-blue-600" href="https://twitter.com/huamanraj" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a>
         <a className="hover:text-blue-600" href="https://github.com/huamanraj" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
