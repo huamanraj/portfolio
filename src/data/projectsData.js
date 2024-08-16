@@ -55,8 +55,8 @@ export const projectsData = [
           'Palette export in multiple formats'
       ],
       challenges: 'Developing a seamless and responsive UI that allows for easy interaction and manipulation of color palettes.',
-      github: '#',
-      liveDemo: '#'
+      github: 'https://github.com/huamanraj/Rang',
+      liveDemo: 'https://rang-sage.vercel.app/'
   },
   {
       id: 4,
@@ -90,7 +90,7 @@ export const projectsData = [
           'Interactive pricing section'
       ],
       challenges: 'Creating a visually engaging design while maintaining performance and responsiveness across devices.',
-      github: '#',
+      github: 'https://github.com/huamanraj/EVolution',
       liveDemo: '#'
   }
 ];
