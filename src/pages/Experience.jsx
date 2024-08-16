@@ -30,6 +30,13 @@ function Experience() {
     },
     {
       icon: FaBriefcase,
+      title: 'Open Source Mentor - \'Ranked 01\'',
+      company: 'GirlScript Summer of Code',
+      date: 'June-Aug 2024',
+      description: 'Mentored and helped new open source contributors to contribute to GitHub repositories. Maintained repositories, reviewed pull requests, and worked collaboratively with contributors.'
+    },
+    {
+      icon: FaBriefcase,
       title: 'Full Stack Developer',
       company: 'SKIT Incubation Cell',
       date: '2023 - 2024',

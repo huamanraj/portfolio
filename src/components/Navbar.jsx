@@ -1,9 +1,18 @@
 // components/Navbar.jsx
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location]);
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
 
   return (
     <nav className="bg-md-bg border-b border-md-text/20 p-8">
@@ -14,10 +23,14 @@ function Navbar() {
             <path d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
           </svg>
         </button>
-        <ul className={`md:flex  md:space-x-6 ${isOpen ? 'block' : 'hidden'} absolute md:relative top-16 md:top-0 left-0 md:left-auto w-full md:w-auto bg-md-bg md:bg-transparent p-4 md:p-0`}>
+        <ul className={`md:flex md:space-x-6 ${isOpen ? 'block' : 'hidden'} absolute md:relative top-16 md:top-0 left-0 md:left-auto w-full md:w-auto bg-md-bg md:bg-transparent p-4 md:p-0`}>
           {['Home', 'About', 'Skills', 'Resume', 'Contact', 'Blogs', 'Projects', 'Experience'].map((item) => (
-            <li key={item} className="mb-2 md:mb-0 ">
-              <Link to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="text-md-green hover:text-blue-400 text-lg transition-colors duration-200">
+            <li key={item} className="mb-2 md:mb-0">
+              <Link 
+                to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} 
+                className="text-md-green hover:text-blue-400 text-lg transition-colors duration-200"
+                onClick={handleLinkClick}
+              >
                 {item}
               </Link>
             </li>

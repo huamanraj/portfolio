@@ -15,6 +15,10 @@ function ProjectDetails() {
     <div className="project-details">
       <Link to="/projects" className="text-md-blue hover:text-md-yellow mb-4 inline-block">&larr; Back to Projects</Link>
       <h1 className="text-3xl text-md-yellow mb-6">{project.title}</h1>
+      
+      
+      
+      
       <img src={project.image} alt={project.title} className="w-full h-64 object-cover rounded-lg mb-6" />
       <div className="bg-md-bg border border-md-text/20 rounded-lg p-6 mb-6">
         <h2 className="text-2xl text-md-blue mb-4">Project Description</h2>

@@ -1,63 +1,21 @@
-// pages/Blogs.jsx
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
-function Blogs() {
-  // const [blogs, setBlogs] = useState([]);
-
-  // useEffect(() => {
-  //   const fetchBlogs = async () => {
-  //     try {
-  //       const response = await fetch('https://api.hashnode.com/v1/me/articles', {
-  //         method: 'POST',
-  //         headers: {
-  //           'Content-Type': 'application/json',
-  //           'Authorization': '11cc8e2b-1233-4209-b6ff-d375b6587f2c'
-  //         },
-  //         body: JSON.stringify({
-  //           query: `
-  //             query {
-  //               user(username: "huamanraj") {
-  //                 publication {
-  //                   posts(page: 1) {
-  //                     title
-  //                     brief
-  //                     slug
-  //                     dateAdded
-  //                   }
-  //                 }
-  //               }
-  //             }
-  //           `
-  //         })
-  //       });
-  //       const data = await response.json();
-  //       setBlogs(data.data.user.publication.posts);
-  //     } catch (error) {
-  //       console.error('Error fetching blogs:', error);
-  //     }
-  //   };
-
-  //   fetchBlogs();
-  // }, []);
+const Blogs = () => {
+  
 
   return (
-    <div className="blogs">
-      <h1 className="text-3xl text-md-yellow mb-6">Blogs</h1>
-       <a className='hover:font-bold' href="https://huamanraj.hashnode.dev/">Visit Hashnode</a>
-      {/* <div className="space-y-6">
-        {blogs.map(blog => (
-          <div key={blog.slug} className="bg-md-bg border border-md-text/20 p-6 rounded-lg">
-            <h2 className="text-2xl text-md-blue mb-2">{blog.title}</h2>
-            <p className="text-md-text mb-4">{blog.brief}</p>
-            <a href={`https://huamanraj.hashnode.dev/${blog.slug}`} target="_blank" rel="noopener noreferrer" className="text-md-green hover:text-md-yellow transition-colors duration-200">
-              Read more
-            </a>
-            <p className="text-sm text-md-text/60 mt-2">{new Date(blog.dateAdded).toLocaleDateString()}</p>
-          </div>
-        ))}
-      </div> */}
+    <div className='flex justify-center items-center  h-[50vh] '>
+      
+<a href="https://huamanraj.hashnode.dev/" class="inline-flex sm:mt-1  mt-28 items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+    <img className='h-10 rounded-full  w-10' src="https://cdn.hashnode.com/res/hashnode/image/upload/v1715791496236/5UP6jh9Mm.png?w=400&h=400&fit=crop&crop=faces&auto=compress,format&format=webp" alt="" />                                             
+    <span class="w-full p-2 font-bold">Read My Blogs On Hashnode</span>
+    <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+    </svg>
+</a> 
+
     </div>
   );
-}
+};
 
 export default Blogs;

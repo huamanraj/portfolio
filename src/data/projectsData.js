@@ -1,42 +1,96 @@
-// src/data/projectsData.js
+import image1 from '../assets/mindmoasic.png';
+import image2 from '../assets/project.png';
+import image3 from '../assets/project.png';
+import image4 from '../assets/todo.png';
+import image5 from '../assets/project.png';
 
 export const projectsData = [
-    {
+  {
       id: 1,
-      title: 'Mind M',
-      image: '/path-to-image1.jpg',
-      shortDescription: 'A full-stack e-commerce solution with React and Node.js',
-      fullDescription: 'A comprehensive bloging platform built with React for the frontend and appwrite for the backend. This project showcases a modern, responsive design with a robust backend capable of handling user authentication, blog data, and blog posting.',
-      technologies: ['React', 'Redux', 'Appwrite', 'tinyMce', '', 'Tailwind CSS'],
+      title: 'Mind Mosaic',
+      image: image1,
+      shortDescription: 'A comprehensive blogging platform with React and Appwrite.',
+      fullDescription: 'Mind Mosaic is a robust blogging platform that integrates React for the frontend and Appwrite for the backend. It features modern UI components, user authentication, and a powerful text editor for creating and managing blog posts.',
+      technologies: ['React', 'Redux', 'Appwrite', 'tinyMCE', 'Tailwind CSS'],
       features: [
-        'User authentication and authorization',
-        'Product catalog with search and filter functionality',
-        'Shopping cart and checkout process',
-        'Order history and tracking',
-        'Admin dashboard for product and order management'
+          'User authentication and authorization',
+          'Rich text editor for blog creation',
+          'Responsive design with Tailwind CSS',
+          'Backend management with Appwrite',
+          'Blog search and filtering'
       ],
-      challenges: 'One of the main challenges was implementing a real-time inventory management system to prevent overselling. This was solved by using WebSockets to update inventory across all active sessions.',
-      github: 'https://github.com/yourusername/ecommerce-platform',
+      challenges: 'Ensuring seamless user authentication and managing real-time data synchronization between frontend and backend using Appwrite.',
+      github: 'https://github.com/yourusername/mind-mosaic',
       liveDemo: 'https://mind-mosaic-blogs.vercel.app/'
-    },
-    {
+  },
+  {
       id: 2,
-      title: 'Task Management App',
-      image: '/path-to-image2.jpg',
-      shortDescription: 'A productivity app built with Vue.js and Firebase',
-      fullDescription: 'A feature-rich task management application developed using Vue.js for the frontend and Firebase for backend services. This app helps users organize their tasks, set priorities, and track progress efficiently.',
-      technologies: ['Vue.js', 'Firebase', 'Vuex', 'Vue Router', 'Tailwind CSS'],
+      title: 'Therapy Chat App',
+      image: image2,
+      shortDescription: 'A secure therapy chat application with real-time messaging using Gemini API.',
+      fullDescription: 'This therapy chat app is designed for secure, real-time communication between therapists and clients. Built with React and Node.js, it utilizes Firebase for real-time data synchronization and Gemini API for advanced text processing.',
+      technologies: ['React', 'Node.js', 'Firebase', 'Gemini API', 'Tailwind CSS'],
       features: [
-        'User authentication with Firebase',
-        'Create, update, and delete tasks',
-        'Organize tasks into projects',
-        'Set due dates and priorities',
-        'Real-time updates across devices',
-        'Data persistence with Firestore'
+          'Real-time chat functionality',
+          'Secure user authentication',
+          'Message encryption for privacy',
+          'Therapist and client management',
+          'Integration with Gemini API for enhanced text analysis'
       ],
-      challenges: "Implementing real-time synchronization across multiple devices was challenging. We overcame this by leveraging Firebase's real-time database capabilities and optimizing our Vuex store.",
-      github: 'https://github.com/yourusername/task-management-app',
-      liveDemo: 'https://your-task-app-demo.com'
-    },
-    // Add more projects as needed
-  ];
+      challenges: 'Implementing secure real-time communication and ensuring data privacy between users was a primary challenge, addressed using encryption and Firebase’s real-time capabilities.',
+      github: '#',
+      liveDemo: '#'
+  },
+  {
+      id: 3,
+      title: 'Color Palette Generator',
+      image: image2,
+      shortDescription: 'A color palette generator built with React.',
+      fullDescription: 'This application allows users to create and save color palettes. It’s built with React and designed to be user-friendly and responsive, featuring drag-and-drop functionality and real-time color updates.',
+      technologies: ['React', 'Tailwind CSS'],
+      features: [
+          'Create and save custom color palettes',
+          'Responsive design with Tailwind CSS',
+          'Drag-and-drop color arrangement',
+          'Palette export in multiple formats'
+      ],
+      challenges: 'Developing a seamless and responsive UI that allows for easy interaction and manipulation of color palettes.',
+      github: '#',
+      liveDemo: '#'
+  },
+  {
+      id: 4,
+      title: 'To-Do App',
+      image: image4,
+      shortDescription: 'A simple and efficient to-do list app using React and Context API.',
+      fullDescription: 'This to-do app is built with React and leverages Context API for state management. It’s designed to help users organize their tasks efficiently, featuring task categorization, priority setting, and due dates.',
+      technologies: ['React', 'Context API', 'Tailwind CSS'],
+      features: [
+          'Task creation, updating, and deletion',
+          'Category and priority setting',
+          'Due date reminders',
+          'State management with Context API'
+      ],
+      challenges: 'Managing complex state across multiple components using Context API without performance degradation.',
+      github: '#',
+      liveDemo: 'https://todo-tau-gold-31.vercel.app/'
+  },
+  {
+      id: 5,
+      title: 'EV Car Home Page',
+      image: image2,
+      shortDescription: 'A sleek homepage for an EV car company built with React.',
+      fullDescription: 'This project is a modern and visually appealing homepage for an EV car company, built with React. It features smooth animations, responsive design, and sections for showcasing the car’s features, pricing, and reviews.',
+      technologies: ['React', 'Tailwind CSS'],
+      features: [
+          'Responsive design with Tailwind CSS',
+          'Smooth animations and transitions',
+          'Car feature showcase',
+          'Customer reviews and testimonials',
+          'Interactive pricing section'
+      ],
+      challenges: 'Creating a visually engaging design while maintaining performance and responsiveness across devices.',
+      github: '#',
+      liveDemo: '#'
+  }
+];

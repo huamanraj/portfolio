@@ -10,10 +10,11 @@ import Projects from './pages/Projects';
 import ProjectDetails from './components/ProjectDetails';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
-
+import CustomScrollbar from './components/CustomScrollbar/CustomScrollbar';
 function App() {
   return (
     <Router>
+       <CustomScrollbar>
       <div className="bg-md-bg text-md-text min-h-screen font-mono">
         <Navbar />
         <main className="container mx-auto px-4 py-8">
@@ -30,6 +31,7 @@ function App() {
           </Routes>
         </main>
       </div>
+      </CustomScrollbar>
     </Router>
   );
 }
