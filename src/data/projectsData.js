@@ -8,7 +8,7 @@ export const projectsData = [
   {
       id: 1,
       title: 'Mind Mosaic',
-      image: image1,
+      image: 'https://images.pexels.com/photos/3631711/pexels-photo-3631711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       shortDescription: 'A comprehensive blogging platform with React and Appwrite.',
       fullDescription: 'Mind Mosaic is a robust blogging platform that integrates React for the frontend and Appwrite for the backend. It features modern UI components, user authentication, and a powerful text editor for creating and managing blog posts.',
       technologies: ['React', 'Redux', 'Appwrite', 'tinyMCE', 'Tailwind CSS'],
@@ -26,7 +26,7 @@ export const projectsData = [
   {
       id: 2,
       title: 'Therapy Chat App',
-      image: image2,
+      image: 'https://images.pexels.com/photos/23496443/pexels-photo-23496443/free-photo-of-a-woman-and-man-sitting-on-a-couch-talking.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       shortDescription: 'A secure therapy chat application with real-time messaging using Gemini API.',
       fullDescription: 'This therapy chat app is designed for secure, real-time communication between therapists and clients. Built with React and Node.js, it utilizes Firebase for real-time data synchronization and Gemini API for advanced text processing.',
       technologies: ['React', 'Node.js', 'Firebase', 'Gemini API', 'Tailwind CSS'],
@@ -44,7 +44,7 @@ export const projectsData = [
   {
       id: 3,
       title: 'Color Palette Generator',
-      image: image2,
+      image: 'https://images.pexels.com/photos/5292188/pexels-photo-5292188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       shortDescription: 'A color palette generator built with React.',
       fullDescription: 'This application allows users to create and save color palettes. It’s built with React and designed to be user-friendly and responsive, featuring drag-and-drop functionality and real-time color updates.',
       technologies: ['React', 'Tailwind CSS'],
@@ -61,7 +61,7 @@ export const projectsData = [
   {
       id: 4,
       title: 'To-Do App',
-      image: image4,
+      image: 'https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       shortDescription: 'A simple and efficient to-do list app using React and Context API.',
       fullDescription: 'This to-do app is built with React and leverages Context API for state management. It’s designed to help users organize their tasks efficiently, featuring task categorization, priority setting, and due dates.',
       technologies: ['React', 'Context API', 'Tailwind CSS'],
@@ -78,7 +78,7 @@ export const projectsData = [
   {
       id: 5,
       title: 'EV Car Home Page',
-      image: image2,
+      image: 'https://images.pexels.com/photos/14611055/pexels-photo-14611055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       shortDescription: 'A sleek homepage for an EV car company built with React.',
       fullDescription: 'This project is a modern and visually appealing homepage for an EV car company, built with React. It features smooth animations, responsive design, and sections for showcasing the car’s features, pricing, and reviews.',
       technologies: ['React', 'Tailwind CSS'],
@@ -92,5 +92,19 @@ export const projectsData = [
       challenges: 'Creating a visually engaging design while maintaining performance and responsiveness across devices.',
       github: 'https://github.com/huamanraj/EVolution',
       liveDemo: '#'
+  },
+  {
+      id: 6,
+      title: 'Figma Designs',
+      image: 'https://cdn.sanity.io/images/599r6htc/regionalized/266ec07c0cfe14229530256bb9700e0bce7ff8d4-2400x1260.png?w=1200&q=70&fit=max&auto=format',
+      shortDescription: 'Collection of design projects crafted by me!',
+      fullDescription: '',
+      technologies: ['Figma'],
+      features: [ 'Modern Designs',
+        'User Friendly'
+      ],
+      challenges: ':)',
+      github: 'https://www.figma.com/design/WQmh0WVIlbtXqXs5zGaNYX/Design-Portfolio?node-id=0-1&t=0SWt273iPCDhI1xT-1',
+      liveDemo: 'https://www.figma.com/design/WQmh0WVIlbtXqXs5zGaNYX/Design-Portfolio?node-id=0-1&t=0SWt273iPCDhI1xT-1'
   }
 ];
