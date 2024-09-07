@@ -1,14 +1,9 @@
-import image1 from '../assets/mindmoasic.png';
-import image2 from '../assets/project.png';
-import image3 from '../assets/project.png';
-import image4 from '../assets/todo.png';
-import image5 from '../assets/project.png';
 
 export const projectsData = [
   {
       id: 1,
       title: 'Mind Mosaic',
-      image: 'https://images.pexels.com/photos/3631711/pexels-photo-3631711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://cdn.pixabay.com/photo/2014/02/13/07/28/wordpress-265132_1280.jpg',
       shortDescription: 'A comprehensive blogging platform with React and Appwrite.',
       fullDescription: 'Mind Mosaic is a robust blogging platform that integrates React for the frontend and Appwrite for the backend. It features modern UI components, user authentication, and a powerful text editor for creating and managing blog posts.',
       technologies: ['React', 'Redux', 'Appwrite', 'tinyMCE', 'Tailwind CSS'],
@@ -26,7 +21,7 @@ export const projectsData = [
   {
       id: 2,
       title: 'Therapy Chat App',
-      image: 'https://images.pexels.com/photos/23496443/pexels-photo-23496443/free-photo-of-a-woman-and-man-sitting-on-a-couch-talking.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://cdn.pixabay.com/photo/2013/08/26/09/40/silhouette-175970_1280.jpg',
       shortDescription: 'A secure therapy chat application with real-time messaging using Gemini API.',
       fullDescription: 'This therapy chat app is designed for secure, real-time communication between therapists and clients. Built with React and Node.js, it utilizes Firebase for real-time data synchronization and Gemini API for advanced text processing.',
       technologies: ['React', 'Node.js', 'Firebase', 'Gemini API', 'Tailwind CSS'],
@@ -44,7 +39,7 @@ export const projectsData = [
   {
       id: 3,
       title: 'Color Palette Generator',
-      image: 'https://images.pexels.com/photos/5292188/pexels-photo-5292188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSSR20a3rWWCFgDsr5cjCJqj5E5w-QUM-FZA&s',
       shortDescription: 'A color palette generator built with React.',
       fullDescription: 'This application allows users to create and save color palettes. It’s built with React and designed to be user-friendly and responsive, featuring drag-and-drop functionality and real-time color updates.',
       technologies: ['React', 'Tailwind CSS'],
@@ -78,7 +73,7 @@ export const projectsData = [
   {
       id: 5,
       title: 'EV Car Home Page',
-      image: 'https://images.pexels.com/photos/14611055/pexels-photo-14611055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://www.tatacapital.com/blog/wp-content/uploads/2023/09/Tata-EV-Cars.webp',
       shortDescription: 'A sleek homepage for an EV car company built with React.',
       fullDescription: 'This project is a modern and visually appealing homepage for an EV car company, built with React. It features smooth animations, responsive design, and sections for showcasing the car’s features, pricing, and reviews.',
       technologies: ['React', 'Tailwind CSS'],
