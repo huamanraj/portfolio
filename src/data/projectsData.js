@@ -3,7 +3,7 @@ export const projectsData = [
     {
         id: 1,
         title: 'Mind Mosaic',
-        image: 'https://cdn.pixabay.com/photo/2014/02/13/07/28/wordpress-265132_1280.jpg',
+        image: 'https://img.freepik.com/free-vector/blogging-illustration-concept_114360-788.jpg?t=st=1726934749~exp=1726938349~hmac=8a2f877b41442cc2a287fbe168cb876ae040609bfc955caf50fcbf61d068ae0d&w=1060',
         shortDescription: 'A comprehensive blogging platform with React and Appwrite.',
         fullDescription: 'Mind Mosaic is a robust blogging platform that integrates React for the frontend and Appwrite for the backend. It features modern UI components, user authentication, and a powerful text editor for creating and managing blog posts.',
         technologies: ['React', 'Redux', 'Appwrite', 'tinyMCE', 'Tailwind CSS'],
@@ -39,7 +39,7 @@ export const projectsData = [
     {
         id: 3,
         title: 'Therapy Chat App',
-        image: 'https://cdn.pixabay.com/photo/2013/08/26/09/40/silhouette-175970_1280.jpg',
+        image: 'https://img.freepik.com/free-vector/pregnant-woman-talking-male-doctor-via-huge-mobile-phone_778687-1231.jpg?t=st=1726934797~exp=1726938397~hmac=75aaab8400e7c2121194abd9a6e704972626b1d4c27cdd45c41418142569f6e2&w=1060',
         shortDescription: 'A secure therapy chat application with real-time messaging using Gemini API.',
         fullDescription: 'This therapy chat app is designed for secure, real-time communication between therapists and clients. Built with React and Node.js, it utilizes Firebase for real-time data synchronization and Gemini API for advanced text processing.',
         technologies: ['React', 'Node.js', 'Firebase', 'Gemini API', 'Tailwind CSS'],
@@ -74,7 +74,7 @@ export const projectsData = [
     {
         id: 5,
         title: 'To-Do App',
-        image: 'https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        image: 'https://img.freepik.com/free-vector/woman-checking-giant-check-list_23-2148099800.jpg?t=st=1726934907~exp=1726938507~hmac=904e64addbcd219e597e07eaf662bb496ee0f6617c908a5a325502f59e896a95&w=740',
         shortDescription: 'A simple and efficient to-do list app using React and Context API.',
         fullDescription: 'This to-do app is built with React and leverages Context API for state management. It’s designed to help users organize their tasks efficiently, featuring task categorization, priority setting, and due dates.',
         technologies: ['React', 'Context API', 'Tailwind CSS'],
