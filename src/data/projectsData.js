@@ -1,4 +1,5 @@
 
+
 export const projectsData = [
     {
         id: 1,
@@ -35,6 +36,21 @@ export const projectsData = [
         challenges: '..',
         github: 'https://github.com/huamanraj/AI-discription-',
         liveDemo: 'https://github.com/huamanraj/AI-discription-'
+    }
+    ,
+    {
+        id: 8,
+        title: 'Sharma Interior Website',
+        image: "https://img.freepik.com/free-vector/web-hosting-isometric-composition-with-icons-website-windows-buttons-desktop-computer-with-people-vector-illustration_1284-80933.jpg?t=st=1727295303~exp=1727298903~hmac=7eaa660e6447b47fd146b523683d51f5005291aa3028ab493523f5bcdb9c5500&w=740",
+        shortDescription: 'A Webpage made in next js and framer motion for a small company sharma interiors',
+        technologies: ['Next js', 'Framer motion', 'Email js', 'Tailwind CSS'],
+        features: [
+            'Animations',
+            'User Friendly Design'
+        ],
+        challenges: 'User Friendly Design and optimisition',
+        github: 'https://www.sharmainteriors.xyz/',
+        liveDemo: 'https://www.sharmainteriors.xyz/'
     },
     {
         id: 3,
