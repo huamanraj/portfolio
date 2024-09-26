@@ -36,7 +36,26 @@ export const projectsData = [
         challenges: '..',
         github: 'https://github.com/huamanraj/AI-discription-',
         liveDemo: 'https://github.com/huamanraj/AI-discription-'
-    }
+    },
+     {
+            id: 10,
+            title: 'AI Github README Generator',
+            image: 'https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png',
+            shortDescription: 'A full-stack GitHub README generator using OpenAI API.',
+            fullDescription: 'This project is an AI-powered GitHub README generator that helps developers craft professional README files. It uses OpenAI API to generate content based on user-selected options, offering a dynamic and customized README creation experience.',
+            technologies: ['React.js','Node.js', 'Express.js', 'OpenAI API'],
+            features: [
+                'Generates descriptions based on user-selected options',
+                'Interactive user interface',
+                'README template generation',
+                'Customizable content blocks',
+                'Supports multiple project types'
+            ],
+            challenges: 'Implementing dynamic user options and integrating the OpenAI API efficiently was a challenge, along with ensuring the generated content matched user expectations.',
+            github: 'https://github.com/huamanraj?tab=repositories&q=readme-gen&type=&language=&sort=',
+            liveDemo: 'https://readme-generator-frontend.vercel.app/'
+        }
+        
     ,
     {
         id: 8,
