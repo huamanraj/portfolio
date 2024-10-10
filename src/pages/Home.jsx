@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaLinkedin, FaXTwitter, FaFilePdf, FaInstagram, FaHashnode } from "react-icons/fa6";
 import { FaPhoneSquareAlt, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import SwitchToCLIButton from '../components/SwitchToCLI';
 
 function Home() {
   return (
@@ -36,7 +37,7 @@ function Home() {
 
       
 
-
+      <SwitchToCLIButton />
     </div>
   );
 }
