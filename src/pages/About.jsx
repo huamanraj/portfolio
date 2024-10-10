@@ -18,7 +18,7 @@ function About() {
         <p className="text-md-text mb-4">
           My technical toolkit includes:
         </p>
-        <ul className="list-disc cursor-none list-inside text-md-blue mb-4">
+        <ul className="list-disc  cursor-grab list-inside text-md-blue mb-4">
           <li>Tools: <span className="text-md-yellow">Figma</span>, VS Code, FlutterFlow, GitHub</li>
           <li className="w-[80%]">Frontend: <span className="text-md-yellow">React</span>, JavaScript (ES6+), TypeScript, Tailwind CSS, Material UI, HTML5, CSS3</li>
           <li>Backend: <span className="text-md-yellow">Node.js, Express</span>, Appwrite, Firebase </li>

@@ -44,7 +44,7 @@ function Experience() {
     },
     {
       icon: FaGraduationCap,
-      title: 'Btech. in CSE (IOT)',
+      title: 'B.Tech in CSE (IOT)',
       company: 'SKIT Jaipur',
       date: '2022 - 2026',
       description: 'Studied algorithms, data structures, software engineering principles, and completed a capstone project on distributed systems. and continued..'

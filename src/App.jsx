@@ -11,6 +11,10 @@ import ProjectDetails from './components/ProjectDetails';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import CustomScrollbar from './components/CustomScrollbar/CustomScrollbar';
+import ToastNotification from './components/MainToast';
+
+
+
 function App() {
   return (
     <Router>
@@ -30,6 +34,7 @@ function App() {
             <Route path="/contact" element={<Contact/>} />
           </Routes>
         </main>
+        <ToastNotification />
       </div>
       </CustomScrollbar>
     </Router>

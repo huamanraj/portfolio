@@ -28,7 +28,7 @@ function Navbar() {
             <li key={item} className="mb-2 md:mb-0">
               <Link 
                 to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} 
-                className="text-md-green hover:text-blue-400 text-lg transition-colors duration-200"
+                className="text-md-green hover:text-blue-400 text-lg transition-colors duration-200 outline-none hover:outline-blue-400 rounded-md  p-1 "
                 onClick={handleLinkClick}
               >
                 {item}
