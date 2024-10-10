@@ -53,7 +53,7 @@ export const projectsData = [
             ],
             challenges: 'Implementing dynamic user options and integrating the OpenAI API efficiently was a challenge, along with ensuring the generated content matched user expectations.',
             github: 'https://github.com/huamanraj?tab=repositories&q=readme-gen&type=&language=&sort=',
-            liveDemo: 'https://readme-generator-frontend.vercel.app/'
+            liveDemo: 'https://githubreadmegenerator.vercel.app/'
         }
         
     ,
@@ -71,24 +71,26 @@ export const projectsData = [
         github: 'https://www.sharmainteriors.xyz/',
         liveDemo: 'https://www.sharmainteriors.xyz/'
     },
-    {
-        id: 3,
-        title: 'Therapy Chat App',
-        image: 'https://img.freepik.com/free-vector/pregnant-woman-talking-male-doctor-via-huge-mobile-phone_778687-1231.jpg?t=st=1726934797~exp=1726938397~hmac=75aaab8400e7c2121194abd9a6e704972626b1d4c27cdd45c41418142569f6e2&w=1060',
-        shortDescription: 'A secure therapy chat application with real-time messaging using Gemini API.',
-        fullDescription: 'This therapy chat app is designed for secure, real-time communication between therapists and clients. Built with React and Node.js, it utilizes Firebase for real-time data synchronization and Gemini API for advanced text processing.',
-        technologies: ['React', 'Node.js', 'Firebase', 'Gemini API', 'Tailwind CSS'],
-        features: [
-            'Real-time chat functionality',
-            'Secure user authentication',
-            'Message encryption for privacy',
-            'Therapist and client management',
-            'Integration with Gemini API for enhanced text analysis'
-        ],
-        challenges: 'Implementing secure real-time communication and ensuring data privacy between users was a primary challenge, addressed using encryption and Firebase’s real-time capabilities.',
-        github: '#',
-        liveDemo: '#'
-    },
+    
+    // {
+    //     id: 3,
+    //     title: 'Therapy Chat App',
+    //     image: 'https://img.freepik.com/free-vector/pregnant-woman-talking-male-doctor-via-huge-mobile-phone_778687-1231.jpg?t=st=1726934797~exp=1726938397~hmac=75aaab8400e7c2121194abd9a6e704972626b1d4c27cdd45c41418142569f6e2&w=1060',
+    //     shortDescription: 'A secure therapy chat application with real-time messaging using Gemini API.',
+    //     fullDescription: 'This therapy chat app is designed for secure, real-time communication between therapists and clients. Built with React and Node.js, it utilizes Firebase for real-time data synchronization and Gemini API for advanced text processing.',
+    //     technologies: ['React', 'Node.js', 'Firebase', 'Gemini API', 'Tailwind CSS'],
+    //     features: [
+    //         'Real-time chat functionality',
+    //         'Secure user authentication',
+    //         'Message encryption for privacy',
+    //         'Therapist and client management',
+    //         'Integration with Gemini API for enhanced text analysis'
+    //     ],
+    //     challenges: 'Implementing secure real-time communication and ensuring data privacy between users was a primary challenge, addressed using encryption and Firebase’s real-time capabilities.',
+    //     github: '#',
+    //     liveDemo: '#'
+    // },
+
     {
         id: 4,
         title: 'Color Palette Generator',
