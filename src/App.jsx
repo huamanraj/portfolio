@@ -1,5 +1,5 @@
 // App.jsx
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -12,13 +12,17 @@ import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import CustomScrollbar from './components/CustomScrollbar/CustomScrollbar';
 import ToastNotification from './components/MainToast';
+import TerminalPortfolio from './components/TerminalPortfolio';
 
+function AppContent() {
+  const location = useLocation();
 
+  if (location.pathname === '/terminal') {
+    return <TerminalPortfolio />;
+  }
 
-function App() {
   return (
-    <Router>
-       <CustomScrollbar>
+    <CustomScrollbar>
       <div className="bg-md-bg text-md-text min-h-screen font-mono">
         <Navbar />
         <main className="container mx-auto px-4 py-8">
@@ -36,7 +40,17 @@ function App() {
         </main>
         <ToastNotification />
       </div>
-      </CustomScrollbar>
+    </CustomScrollbar>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/terminal" element={<TerminalPortfolio />} />
+        <Route path="*" element={<AppContent />} />
+      </Routes>
     </Router>
   );
 }
