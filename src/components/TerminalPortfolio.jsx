@@ -21,7 +21,7 @@ const TerminalPortfolio = () => {
   // Initial terminal lines
   useEffect(() => {
     setTerminalLineData([
-      { type: 'output', value: "Welcome to [Your Name]'s Portfolio Terminal!" },
+      { type: 'output', value: "Welcome to Aman Raj's Portfolio Terminal!" },
       { type: 'output', value: "Type 'help' to see available commands." },
     ]);
   }, []);
@@ -36,18 +36,18 @@ const TerminalPortfolio = () => {
     projects: () => `1. GitHub README Generator - AI-powered tool to create personalized GitHub readmes.
 2. Personal Portfolio - XFCE desktop theme inspired responsive portfolio site.
 3. E-commerce Website - Full-stack application with integrated payment gateway.`,
-    contact: () => `Email: your-email@example.com
-GitHub: https://github.com/yourusername
-LinkedIn: https://linkedin.com/in/yourusername`,
+    contact: () => `Email: amanraj12.ar@gmail.com
+GitHub: https://github.com/huamanraj
+LinkedIn: https://linkedin.com/in/huamanraj`,
     skills: () => `Proficient in:
 - JavaScript (React, Node.js)
 - Python
 - SQL
 - Web development (HTML, CSS)
 - XFCE Desktop Environment`,
-    resume: () => "Resume available at: https://yourwebsite.com/resume.pdf",
-    github: () => "GitHub: https://github.com/yourusername",
-    linkedin: () => "LinkedIn: https://linkedin.com/in/yourusername",
+    resume: () => "Resume available at: https://aman-raj.xyz/resume",
+    github: () => "GitHub: https://github.com/huamanraj",
+    linkedin: () => "LinkedIn: https://linkedin.com/in/huamanraj",
     clear: () => "",
     exit: () => {
       navigate('/');
@@ -55,16 +55,16 @@ LinkedIn: https://linkedin.com/in/yourusername`,
     },
     help: () => `
       Available commands:
-      about - View information about me
-      projects - Check my projects
-      contact - Get my contact information
-      skills - View my skills
-      resume - See my resume
-      github - Visit my GitHub profile
-      linkedin - Visit my LinkedIn profile
-      clear - Clear the terminal
-      exit - Return to the home page
-      help - Show this help message
+      about 
+      projects 
+      contact 
+      skills 
+      resume
+      github 
+      linkedin 
+      clear 
+      exit 
+      help 
     `,
   };
 
