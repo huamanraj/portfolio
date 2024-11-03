@@ -28,12 +28,12 @@ const ToastNotification = () => {
             <p>
               Try my new project:{" "}
               <a
-                href="https://githubreadmegenerator.vercel.app/"
+                href="https://quotecanvasai.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-md-blue underline hover:text-md-yellow"
               >
-                Github Readme Generator AI
+                QuoteCanvas AI
               </a>
             </p>
             <button onClick={closeToast} className="text-2xl text-md-red hover:text-md-yellow ml-4">

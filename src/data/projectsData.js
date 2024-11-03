@@ -20,22 +20,22 @@ export const projectsData = [
         liveDemo: 'https://mind-mosaic-blogs.vercel.app/'
     },
     {
-        id: 2,
-        title: 'AI Discription Generation',
-        image: 'https://plopdo.com/wp-content/uploads/2021/10/What-is-back-end-development-2.jpg',
-        shortDescription: 'A backend for recuritment platform AI discription generation.',
-        fullDescription: 'This project is a modern and visually appealing homepage for an EV car company, built with React. It features smooth animations, responsive design, and sections for showcasing the car’s features, pricing, and reviews.',
-        technologies: ['Node.js', 'Express.js', 'OpenAi API'],
+        id: 1222,
+        title: 'QuoteCanvas AI',
+        image: 'https://img.freepik.com/free-photo/industrial-designer-digital-art_23-2151585281.jpg?t=st=1730654190~exp=1730657790~hmac=880ce876a1c45707f69de88b3d95beda4aaa972f12eb119728415c30ec69ffc1&w=1060', // replace with actual image URL
+        shortDescription: 'A customizable AI-powered quote image creator for social media posts.',
+        fullDescription: 'QuoteCanvas AI generates topic-based quotes with AI and allows users to design social media posts with font, color, and layout customization. Built with the MERN stack and Tailwind CSS.',
+        technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Vite', 'Google Gemini API'],
         features: [
-            'Crafts Discription based on opted selections',
-            'Smooth animations and transitions',
-            'Car feature showcase',
-            'Customer reviews and testimonials',
-            'Interactive pricing section'
+            'AI-generated quotes based on user topics',
+            'Font and color customization',
+            'Responsive design',
+            'Downloadable image output',
+            'Image ratio selection for social platforms'
         ],
-        challenges: '..',
-        github: 'https://github.com/huamanraj/AI-discription-',
-        liveDemo: 'https://github.com/huamanraj/AI-discription-'
+        challenges: 'Handling API responses for varied quote topics and ensuring smooth customization features.',
+        github: 'https://github.com/huamanraj/QuoteCanvasAI',
+        liveDemo: 'https://quotecanvasai.vercel.app/'
     },
      {
             id: 10,
@@ -57,6 +57,24 @@ export const projectsData = [
         }
         
     ,
+    {
+        id: 2,
+        title: 'AI Discription Generation',
+        image: 'https://plopdo.com/wp-content/uploads/2021/10/What-is-back-end-development-2.jpg',
+        shortDescription: 'A backend for recuritment platform AI discription generation.',
+        fullDescription: 'This project is a modern and visually appealing homepage for an EV car company, built with React. It features smooth animations, responsive design, and sections for showcasing the car’s features, pricing, and reviews.',
+        technologies: ['Node.js', 'Express.js', 'OpenAi API'],
+        features: [
+            'Crafts Discription based on opted selections',
+            'Smooth animations and transitions',
+            'Car feature showcase',
+            'Customer reviews and testimonials',
+            'Interactive pricing section'
+        ],
+        challenges: '..',
+        github: 'https://github.com/huamanraj/AI-discription-',
+        liveDemo: 'https://github.com/huamanraj/AI-discription-'
+    },
     {
         id: 8,
         title: 'Sharma Interior Website',
