@@ -20,6 +20,32 @@ export const projectsData = [
         liveDemo: 'https://mind-mosaic-blogs.vercel.app/'
     },
     {
+        "id": 134223,
+        "title": "BuzzSphere",
+        "image": "https://img.freepik.com/free-vector/new-message-landing-page-concept_23-2148319402.jpg?t=st=1731169458~exp=1731173058~hmac=77e10c8685a8cd88d33d63353d6c5e3d9376d7fd04ee0a86f73af2245f569e34&w=1480", 
+
+        "shortDescription": "A real-time chat application with seamless messaging and custom features.",
+        "fullDescription": "BuzzSphere is a multi-user chat platform built with React and Appwrite, featuring real-time messaging, password-protected rooms, emoji support, and chat history loading. It's designed for efficient and engaging user communication.",
+        "technologies": [
+            "React",
+            "Appwrite",
+            "Appwrite Realtime",
+            "Tailwind CSS",
+            "Vite"
+        ],
+        "features": [
+            "Real-time messaging with Appwrite",
+            "Password-protected chat rooms",
+            "Emoji support for enhanced communication",
+            "Persistent chat history with scroll-up loading",
+            "Mobile-friendly, responsive design"
+        ],
+        "challenges": "Managing real-time updates and minimizing duplicate message issues across multiple devices.",
+        "github": "https://github.com/huamanraj/BuzzSphere",
+        "liveDemo": "https://buzz-sphere.vercel.app/"
+    },
+    
+    {
         id: 1222,
         title: 'QuoteCanvas AI',
         image: 'https://img.freepik.com/free-photo/industrial-designer-digital-art_23-2151585281.jpg?t=st=1730654190~exp=1730657790~hmac=880ce876a1c45707f69de88b3d95beda4aaa972f12eb119728415c30ec69ffc1&w=1060', // replace with actual image URL
