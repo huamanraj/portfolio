@@ -44,6 +44,31 @@ export const projectsData = [
         "github": "https://github.com/huamanraj/BuzzSphere",
         "liveDemo": "https://buzz-sphere.vercel.app/"
     },
+
+    {
+        "id": 1223,
+        "title": "SnapDrop",
+        "image": "https://snapdrop.vercel.app/assets/logo-CW4s9jSv.png", 
+        "shortDescription": "A modern and secure file-sharing web app with customizable expiry and short links.",
+        "fullDescription": "SnapDrop allows users to share files online with a drag-and-drop interface, short shareable links, and customizable expiration times. Built with the MERN stack, Appwrite, and Tailwind CSS.",
+        "technologies": [
+            "React", 
+            "Appwrite", 
+            "Tailwind CSS", 
+            "Vite"
+        ],
+        "features": [
+            "Drag-and-drop file upload",
+            "Upload progress bar",
+            
+            "File expiry customization",
+            "Authenticated user history with file metadata"
+        ],
+        "challenges": "Ensuring secure file sharing, implementing short link generation, and managing file expiration.",
+        "github": "https://github.com/huamanraj/SnapDrop", // replace with actual GitHub repo
+        "liveDemo": "https://snapdrop.vercel.app/" // replace with actual live demo link
+    },
+    
     
     {
         id: 1222,
